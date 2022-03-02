@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(0, 255, 0);
+    height: 150px;
+    padding-left: 40px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+header h1{
+    font-weight: 800;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.navbar{
+    text-align: right;
+    margin: 3px;
+    border: 1px;
+}
+.info,.about,.ask{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    font-size: x-large;
+    border-radius: 20px;
+}
+.ask:hover{
+    background-color: black;
+    padding: 10px;
+    color:white;
+    font-weight: 500;
+    font-size: x-large;
+    border-radius: 20px;
+}
+.about:hover{
+    background-color:black;
+    padding: 10px;
+    color:white;
+    font-weight: 500;
+    font-size: x-large;
+    border-radius: 20px;
+}
+.info:hover{
+    background-color: black;
+    padding: 10px;
+    color:white;
+    font-weight: 500;
+    font-size: x-large;
+    border-radius: 20px;
+}
+hr{
+    width: 100%;
+    box-shadow: 20px;
+}
+.name_bio{
+    width: 50%;
+    text-align: left;
+    background-color: gray;
+    border-radius: 50px;
+}
+.batch{
+    padding-top: 30px;
+    width: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+}
+.photo{
+    margin-left: 10px;
+    width: 150px;
+    border-radius: 100%;
+    padding-left: 10px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.text{
+   
+    text-align: center;
+    text-align: calc();
+}
+.hello{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    text-align: justify;
+}
+.text1{
+    color: #fc0202;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    text-align: justify;
+    float: left;
+}
+h2{
+    font-weight: 600;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+span{
+    color: red;
+}
+.formtext{
+    background-image: url(world.jpg);
+    padding-right: 40px;
+    height: 500px;
+    width: 100%;
+    overflow-y: scroll;
+}
+form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 500px;
+    overflow-y: scroll;
+}
+.form_text{
+    width: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    float: right;
+}
+input[type="text"],
+input[type="email"],
+select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+.main_heading{
+    text-align: center;
+    color: black;
+}
+input[type="submit"]{
+    width: 80px;
+    height: 30px;
+    background-color: orangered;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    width: 80;
+    height: 30px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    color: orangered;
+    cursor: grab;
+}
+footer{
+    background-color: #333;
+    overflow: hidden;
+}
+.insta,.facebook,.youtube,.linkedin{
+    border-radius: 50px;
+    width: 10%;
+    padding: 20px;
+}
